@@ -37,7 +37,7 @@ function App() {
     console.log(publicIpv4());
 
     const autoGetLocation = async () => {
-      const url = `http://api.ipapi.com/api/${ip}?access_key=5add88a22685ae19b9ccadcf242b1834`;
+      const url = `https://api.ipapi.com/api/${ip}?access_key=5add88a22685ae19b9ccadcf242b1834`;
       const response = await fetch(url);
       const resJson = await response.json();
       console.log("response: ", response);
