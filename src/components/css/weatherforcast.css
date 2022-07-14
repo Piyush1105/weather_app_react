@@ -1,0 +1,46 @@
+.weatherforcast {
+  margin: 20px;
+  background: rgba(14, 14, 14, 0.25);
+  /* box-shadow: 0 8px 32px 0 rgba(81, 82, 90, 0.37); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+}
+.weather-forcast-card-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px 0 20px;
+  letter-spacing: 1.5px;
+  color: aliceblue;
+}
+.weather-forcast-card {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  letter-spacing: 1.5px;
+}
+.forcast {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px;
+  letter-spacing: 1.5px;
+  gap: 2px;
+
+  width: auto;
+
+  background: rgba(14, 14, 14, 0.25);
+  /* box-shadow: 0 8px 32px 0 rgba(81, 82, 90, 0.37); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.forcast-temp small {
+  text-transform: capitalize;
+}
